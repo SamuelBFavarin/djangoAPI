@@ -28,7 +28,6 @@ class User(models.Model):
 
     @property
     def avg_discount(self):
-        print(self.salaries.all().aggregate(Avg('discount')))
         return self.salaries.all().aggregate(Avg('discount')).get('discount__avg', 0.00)
 
 
