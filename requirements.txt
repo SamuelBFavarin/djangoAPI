@@ -8,7 +8,7 @@ cffi==1.14.0
 chardet==3.0.4
 Click==7.0
 cryptography==2.8
-Django==3.0.6
+Django==3.0.7
 grpcio==1.28.1
 gunicorn==19.10.0
 httplib2==0.17.3
